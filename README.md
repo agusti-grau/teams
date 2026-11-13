@@ -183,3 +183,12 @@ pwsh -File tests/Invoke-MockRun.ps1
 | Many `404`/`403` in `tolerated_http_errors` for user chats/calendars | Unlicensed users / mailboxes outside the RBAC scope (expected) |
 | Domains shown as `unresolved-tenant-<guid>` | `CrossTenantInformation.ReadBasic.All` not granted or tenant not resolvable |
 | `Application roles not present in the token` | Consent not granted for that permission |
+
+## Status
+
+The collector is covered by an offline mock test only. It has **not yet been validated against a live tenant**:
+run a pilot (`-UserPrincipalName`, short `-DaysBack`) and review the output before relying on it.
+
+## License
+
+[MIT](LICENSE). The report output contains personal data; handling it lawfully is the operator's responsibility.

@@ -63,6 +63,7 @@
 .NOTES
     Exit codes: 0 = success, 1 = fatal error, 2 = completed with one or more failed sources/warnings.
     Version 1.1.0
+    License: MIT (see LICENSE)
 #>
 [CmdletBinding()]
 param(
