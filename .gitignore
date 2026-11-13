@@ -1,0 +1,14 @@
+# Reports contain personal data (names, e-mails, domains) - never commit them
+output/
+*.csv
+*.log
+*.manifest.json
+
+# Secrets / key material - never commit
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+*.env
